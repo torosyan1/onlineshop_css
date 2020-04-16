@@ -1,257 +1,333 @@
-
-  <div class="covid19"> 
-    <p class="covid19P">Free U.S. Shipping over $50+ I COVID-19 Update</p>
+<div>
+  <div class="covid19">
+      <p class="covid19p">30% off Hoodies & More I Free U.S. Shipping on $50+</p>
   </div>
-  <div class="row">
-    <header>
-      <img src='https://cdn.shopify.com/s/files/1/0277/0693/files/topo_designs_logo_vertical-logo.svg?v=1652876766858419023' alt='loading' />
-       <ul class="headerul">
-         <li>New ∨
-          <div class="dropdown-content">
-          <ul>
-            <li>LOOKBOOK </li>
-            <li>ROVER PACKS</li>
-            <li>NEW PACKS & BAGS</li>
-            <li> NEW MEN'S </li>
-            <li></li>
+</div>
+
+<header class="main-header">
+  <div class="container-header">
+
+      <div class='site-logo'>
+          <a href="/">
+              <img src='//cdn.shopify.com/s/files/1/0277/0693/files/topo_designs_logo_vertical-logo.svg?v=1652876766858419023' />
+          </a>
+      </div>
+      <div class="menu">
+          <ul class="menu-ul">
+              <li>NEW ∨
+
+                  <div class="dropdown-content">
+                      <ul>
+                          <li>LOOKBOOK </li>
+                          <li>ROVER PACKS</li>
+                          <li>NEW PACKS & BAGS</li>
+                          <li> NEW MEN'S </li>
+                          <li>NEW WOMEN'S</li>
+                          <li>NEW ACCESSORIES</li>
+                          <li>ALL New ARRIVALS</li>
+                      </ul>
+                  </div>
+
+              </li>
+              <li>PACK & BAGS ∨ </li>
+              <li>MEN'S ∨</li>
+              <li>WOMEN'S ∨</li>
+              <li>ACCESSORIES ∨</li>
+              <li>LOOKBOOK ∨</li>
           </ul>
+          <div class="right-colum">
+              <p>Join / Sign In</p>
+              <i class="fa fa-search fa-lg" aria-hidden="true">
+              </i>
+              <i class="fa fa-shopping-cart fa-lg" aria-hidden="true">
+                  <div class='cartCounter'>0</div>
+              </i>
           </div>
-        </li>
-         <li>PACKS & BAGS ∨</li>
-         <li>WOMEN ∨</li>
-         <li>ACCESSORIES ∨</li>
-         <li>ABOUT ∨</li>
-         <Li>LOOKBOOK ∨</Li>
-       </ul>
-       <div class="sginin"> 
-         <ul>
-         <li>Join / Sign In <span><img class='imgSearch' src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/search-512.png" /></span>
-          <span><img class="imgSearch" src='https://essentialhealthct.com/wp-content/uploads/2018/09/shopping-cart-black-6.png'/></span> <li>
-         </ul>
-        </div>
-    </header>
+      </div>
   </div>
 
+  <div class="mobile">
+      <div class="mobile-header">
+          <div class="mobaile-navigation-button">
+              <button type="button" class="openButton" (click)='modalOpen()'><i class="fa fa-align-justify fa-2x" aria-hidden="true"></i>
+              </button>
+          </div>
+          <img class="mobile-header-img" src='//cdn.shopify.com/s/files/1/0277/0693/files/topo_designs_logo_horizontal_432x_c57bc56a-a610-4d86-a08d-1b70e02a0064_432x.png?v=1534299399 1x, //cdn.shopify.com/s/files/1/0277/0693/files/topo_designs_logo_horizontal_432x_c57bc56a-a610-4d86-a08d-1b70e02a0064_432x@2x.png?v=1534299399 2x' />
+      </div>
+
+      <div class="modal-overlay" #modalmodalOverlay id="modal-overlay"></div>
+      <div class="modal" #modal id="modal">
+          <div class="modal-guts">
+              <ul class="mobail-modal-ul">
+                  <li class="x"><button type="button" class="closedButton" (click)="closed()">X</button></li>
+                  <li>NEW</li>
+                  <ul class="modal-nacigation-ul" #navigationUl>
+                      <li>LookBook</li>
+                      <li>ROVER & PACKS</li>
+                      <li>NEW MEN'S</li>
+                      <li>NEW WOMENS</li>
+                      <li>NEW ACCESSORIES</li>
+                      <li>ALLNEW ARRIVALS</li>
+                  </ul>
+                  <li>PACK & BAGS</li>
+                  <li>MEN'S</li>
+                  <li>WOMEN'S</li>
+                  <li>ACCESSORIES</li>
+                  <li>LOOKBOOK</li>
+              </ul>
+              <div class="mobile-select-mobal">
+                  <span #span1 (click)="openNavigationUl()">∨</span>
+                  <span #span2>∨</span>
+                  <span #span3>∨</span>
+                  <span #span4>∨</span>
+                  <span #span5>∨</span>
+              </div>
+          </div>
+      </div>
+      <i class="fa fa-search fa-lg" id="mobile-search" aria-hidden="true"></i>
+      <i class="fa fa-shopping-cart fa-lg" id="mobile-cart" aria-hidden="true">
+          <div class='cartCounter-mobile'>0</div>
+      </i>
+  </div>
+</header>
 
 
 
-<div class="row1">
-  <img src='//cdn.shopify.com/s/files/1/0277/0693/files/updated_600x@2x.progressive.jpg?v=1586444686 1200w,
-  //cdn.shopify.com/s/files/1/0277/0693/files/updated_450x@2x.progressive.jpg?v=1586444686 900w,
-  //cdn.shopify.com/s/files/1/0277/0693/files/updated_300x@2x.progressive.jpg?v=1586444686 600w,
-  //cdn.shopify.com/s/files/1/0277/0693/files/updated_200x@2x.progressive.jpg?v=1586444686 400w,
-  //cdn.shopify.com/s/files/1/0277/0693/files/updated_100x@2x.progressive.jpg?v=1586444686 200w'
-  class="TopDesgin" />
-  <h1> 
-    <p class="imgP">TOPO DESIGNS <br/> X DANNER <br/>
-       <strong class="strong">Back and bolder than ever.
-         <br/>
-         <button class="shopCollectionButton">SHOP THE COLLECTION</button>
-       </strong></p>
-  </h1>
+<div class="imagesC">
+  <div class="imageTextC">
+      <div class="imageC">
+          <img src='//cdn.shopify.com/s/files/1/0277/0693/files/hoodies-crews-slider_600x@2x.jpg?v=1586877712' alt="Bag">
+      </div>
+      <div class="textC">
+          <h1>30% Off Hoodies, Sweaters & Sweatshirts</h1>
+          <p><strong>Settle in to comfort.</strong></p>
+          <button>Shop Bags</button>
+      </div>
+  </div>
 </div>
 
 <div class="row2">
-  <div class="leftImgDiv">
-  <img src='//cdn.shopify.com/s/files/1/0277/0693/files/hike-bike-1_600x@2x.progressive.jpg?v=1585958583 1200w,
-  //cdn.shopify.com/s/files/1/0277/0693/files/hike-bike-1_450x@2x.progressive.jpg?v=1585958583 900w,
-  //cdn.shopify.com/s/files/1/0277/0693/files/hike-bike-1_300x@2x.progressive.jpg?v=1585958583 600w,
-  //cdn.shopify.com/s/files/1/0277/0693/files/hike-bike-1_200x@2x.progressive.jpg?v=1585958583 400w,
-  //cdn.shopify.com/s/files/1/0277/0693/files/hike-bike-1_100x@2x.progressive.jpg?v=1585958583 200w'
-  class="imgLeft" />
+  <div class="img1">
+      <img src='//cdn.shopify.com/s/files/1/0277/0693/files/49728671932_8bf3a5c644_o_copy_600x@2x.progressive.jpg?v=1586878167 1200w,
+//cdn.shopify.com/s/files/1/0277/0693/files/49728671932_8bf3a5c644_o_copy_450x@2x.progressive.jpg?v=1586878167 900w,
+//cdn.shopify.com/s/files/1/0277/0693/files/49728671932_8bf3a5c644_o_copy_300x@2x.progressive.jpg?v=1586878167 600w,
+//cdn.shopify.com/s/files/1/0277/0693/files/49728671932_8bf3a5c644_o_copy_200x@2x.progressive.jpg?v=1586878167 400w,
+//cdn.shopify.com/s/files/1/0277/0693/files/49728671932_8bf3a5c644_o_copy_100x@2x.progressive.jpg?v=1586878167 200w' class="row2-img1" />
+      <div class="absalute-div">
+          <h3 class="TopoDesing">
+              <p>Topo Designs x Danner</p>
+          </h3>
+          <button class="shop-the-collection">SHOP THE COLLECTION</button>
+      </div>
+  </div>
+  <div class="img2">
+      <img src='//cdn.shopify.com/s/files/1/0277/0693/files/49593839851_04de08660a_o_600x@2x.progressive.jpg?v=1585023215 1200w,
+//cdn.shopify.com/s/files/1/0277/0693/files/49593839851_04de08660a_o_450x@2x.progressive.jpg?v=1585023215 900w,
+//cdn.shopify.com/s/files/1/0277/0693/files/49593839851_04de08660a_o_300x@2x.progressive.jpg?v=1585023215 600w,
+//cdn.shopify.com/s/files/1/0277/0693/files/49593839851_04de08660a_o_200x@2x.progressive.jpg?v=1585023215 400w,
+//cdn.shopify.com/s/files/1/0277/0693/files/49593839851_04de08660a_o_100x@2x.progressive.jpg?v=1585023215 200w' class="row2-img2" />
+      <div class="absalute-div2">
+          <h3 class="TopoDesing2">
+              <p>FRESH FOR SPRING</p>
+          </h3>
+          <strong>New style in here</strong>
+          <br />
+          <button class="shop-the-collection2">SHOP LOOKBOOK</button>
+      </div>
 
-  <h3 class="leftP" >
-    <p >Gear up & get out.</p>
-    <button class="shopbiking">SHOP BIKING</button>
-    <button class="shophiking">SHOP HIKING</button>
-  </h3>
-
+  </div>
 </div>
-<div class="RightImgDiv">
-  <img src='//cdn.shopify.com/s/files/1/0277/0693/files/49488980266_87e85a8c02_o_copy_600x@2x.progressive.jpg?v=1585238842 1200w,
-  //cdn.shopify.com/s/files/1/0277/0693/files/49488980266_87e85a8c02_o_copy_450x@2x.progressive.jpg?v=1585238842 900w,
-  //cdn.shopify.com/s/files/1/0277/0693/files/49488980266_87e85a8c02_o_copy_300x@2x.progressive.jpg?v=1585238842 600w,
-  //cdn.shopify.com/s/files/1/0277/0693/files/49488980266_87e85a8c02_o_copy_200x@2x.progressive.jpg?v=1585238842 400w,
-  //cdn.shopify.com/s/files/1/0277/0693/files/49488980266_87e85a8c02_o_copy_100x@2x.progressive.jpg?v=1585238842 200w'
-  class="RightImg" />
-
-  <h3 class="RightP" >
-    <p >Sign up. Earn <br/> points. Get <br/>rewarded.</p>
-    <button class="shopbiking">SHOP BIKING</button>
-    <button class="shophiking">SHOP HIKING</button>
-  </h3>
-</div>
-</div>
 
 
 
-<div class="row3">
 
-<div class="img1Div">
-<img src='//cdn.shopify.com/s/files/1/0277/0693/files/Website_Pack_BagsCollection_Block_Spring20Launch_031919_600x@2x.progressive.jpg?v=1584589900 1200w,
+
+<div class="row4">
+  <div class="row4-div-1">
+      <img src='//cdn.shopify.com/s/files/1/0277/0693/files/Website_Pack_BagsCollection_Block_Spring20Launch_031919_600x@2x.progressive.jpg?v=1584589900 1200w,
 //cdn.shopify.com/s/files/1/0277/0693/files/Website_Pack_BagsCollection_Block_Spring20Launch_031919_450x@2x.progressive.jpg?v=1584589900 900w,
 //cdn.shopify.com/s/files/1/0277/0693/files/Website_Pack_BagsCollection_Block_Spring20Launch_031919_300x@2x.progressive.jpg?v=1584589900 600w,
 //cdn.shopify.com/s/files/1/0277/0693/files/Website_Pack_BagsCollection_Block_Spring20Launch_031919_200x@2x.progressive.jpg?v=1584589900 400w,
-//cdn.shopify.com/s/files/1/0277/0693/files/Website_Pack_BagsCollection_Block_Spring20Launch_031919_100x@2x.progressive.jpg?v=1584589900 200w' 
-class="img1"/>
+//cdn.shopify.com/s/files/1/0277/0693/files/Website_Pack_BagsCollection_Block_Spring20Launch_031919_100x@2x.progressive.jpg?v=1584589900 200w' class="row4-img-1" />
 
-<h3 class="p1">
-  <p >NEW MEN'S APPAREL</p>
-</h3>
-<div class="img1DivP">
-  <button class="img1DivB">SHOP BAGS</button>
-</div>
+      <div class="row4-div1-button-h3">
+          <h3 class="row4-div1-h3">
+              <p class="row4-div1-p">NEW PACKS BAGS</p>
+          </h3>
+          <button class="row4-div1-button">SHOP BAGS</button>
+      </div>
 
-</div>
+  </div>
 
- <div class="img2Div">
-  <img src='//cdn.shopify.com/s/files/1/0277/0693/files/Website_MensCollection_Block_Option2_Spring20Launch_031919_600x@2x.progressive.jpg?v=1584589978 1200w,
-  //cdn.shopify.com/s/files/1/0277/0693/files/Website_MensCollection_Block_Option2_Spring20Launch_031919_450x@2x.progressive.jpg?v=1584589978 900w,
-  //cdn.shopify.com/s/files/1/0277/0693/files/Website_MensCollection_Block_Option2_Spring20Launch_031919_300x@2x.progressive.jpg?v=1584589978 600w,
-  //cdn.shopify.com/s/files/1/0277/0693/files/Website_MensCollection_Block_Option2_Spring20Launch_031919_200x@2x.progressive.jpg?v=1584589978 400w,
-  //cdn.shopify.com/s/files/1/0277/0693/files/Website_MensCollection_Block_Option2_Spring20Launch_031919_100x@2x.progressive.jpg?v=1584589978 200w' 
-  class="img2"/>
-  <h3 class="p1">
-    <p >NEW MEN'S APPAREL</p>
-  </h3>
-  <div class="img1DivP2">
-    <button class="img1DivB2">New Men's Apparel</button>
+
+
+
+  <div class="row4-div-2">
+      <img src='//cdn.shopify.com/s/files/1/0277/0693/files/Website_MensCollection_Block_Option2_Spring20Launch_031919_600x@2x.progressive.jpg?v=1584589978 1200w,
+      //cdn.shopify.com/s/files/1/0277/0693/files/Website_MensCollection_Block_Option2_Spring20Launch_031919_450x@2x.progressive.jpg?v=1584589978 900w,
+      //cdn.shopify.com/s/files/1/0277/0693/files/Website_MensCollection_Block_Option2_Spring20Launch_031919_300x@2x.progressive.jpg?v=1584589978 600w,
+      //cdn.shopify.com/s/files/1/0277/0693/files/Website_MensCollection_Block_Option2_Spring20Launch_031919_200x@2x.progressive.jpg?v=1584589978 400w,
+      //cdn.shopify.com/s/files/1/0277/0693/files/Website_MensCollection_Block_Option2_Spring20Launch_031919_100x@2x.progressive.jpg?v=1584589978 200w' class="row4-img-2" />
+
+      <div class="row4-div2-button-h3">
+          <h3 class="row4-div2-h3">
+              <p class="row4-div2-p">NEW MANS APPAREL</p>
+          </h3>
+          <button class="row4-div2-button">SHOP MANS</button>
+      </div>
+
+  </div>
+
+  <div class="row4-div-3">
+      <img src='//cdn.shopify.com/s/files/1/0277/0693/files/Website_WomensCollection_Block_Spring20Launch_031919_600x@2x.progressive.jpg?v=1584590023 1200w,
+      //cdn.shopify.com/s/files/1/0277/0693/files/Website_WomensCollection_Block_Spring20Launch_031919_450x@2x.progressive.jpg?v=1584590023 900w,
+      //cdn.shopify.com/s/files/1/0277/0693/files/Website_WomensCollection_Block_Spring20Launch_031919_300x@2x.progressive.jpg?v=1584590023 600w,
+      //cdn.shopify.com/s/files/1/0277/0693/files/Website_WomensCollection_Block_Spring20Launch_031919_200x@2x.progressive.jpg?v=1584590023 400w,
+      //cdn.shopify.com/s/files/1/0277/0693/files/Website_WomensCollection_Block_Spring20Launch_031919_100x@2x.progressive.jpg?v=1584590023 200w' class="row4-img-3" />
+
+      <div class="row4-div3-button-h3">
+          <h3 class="row4-div3-h3">
+              <p class="row4-div3-p">NEW WOMENS'S APPAREL</p>
+          </h3>
+
+          <button class="row4-div3-button">SHOP WOMENS'S</button>
+      </div>
   </div>
 </div>
-
-<div class="img3Div">
-  <img src='//cdn.shopify.com/s/files/1/0277/0693/files/Website_WomensCollection_Block_Spring20Launch_031919_600x@2x.progressive.jpg?v=1584590023 1200w,
-  //cdn.shopify.com/s/files/1/0277/0693/files/Website_WomensCollection_Block_Spring20Launch_031919_450x@2x.progressive.jpg?v=1584590023 900w,
-  //cdn.shopify.com/s/files/1/0277/0693/files/Website_WomensCollection_Block_Spring20Launch_031919_300x@2x.progressive.jpg?v=1584590023 600w,
-  //cdn.shopify.com/s/files/1/0277/0693/files/Website_WomensCollection_Block_Spring20Launch_031919_200x@2x.progressive.jpg?v=1584590023 400w,
-  //cdn.shopify.com/s/files/1/0277/0693/files/Website_WomensCollection_Block_Spring20Launch_031919_100x@2x.progressive.jpg?v=1584590023 200w'
-  class="img3" />
-  <h3 class="p1">
-    <p >New Women's Apparel</p>
-  </h3>
-  <div class="img1DivP3">
-    <button class="img1DivB3">SHOP WOOMEN'S</button>
-  </div>
-</div> 
-
-</div>
-
-
-
-<div class="row2">
-  <div class="leftImgDiv">
-  <img src='//cdn.shopify.com/s/files/1/0277/0693/files/ezgif.com-webp-to-jpg_600x@2x.progressive.jpg?v=1584719872 1200w,
-  //cdn.shopify.com/s/files/1/0277/0693/files/ezgif.com-webp-to-jpg_450x@2x.progressive.jpg?v=1584719872 900w,
-  //cdn.shopify.com/s/files/1/0277/0693/files/ezgif.com-webp-to-jpg_300x@2x.progressive.jpg?v=1584719872 600w,
-  //cdn.shopify.com/s/files/1/0277/0693/files/ezgif.com-webp-to-jpg_200x@2x.progressive.jpg?v=1584719872 400w,
-  //cdn.shopify.com/s/files/1/0277/0693/files/ezgif.com-webp-to-jpg_100x@2x.progressive.jpg?v=1584719872 200w'
-  class="imgLeft" />
-
-  <h3 class="leftPLast" >
-    <p >Iconic design<br/> runs in the <br/> family</p>
-    <strong class="stronglast">Introducing the Rover Pack Collection.</strong>
-    <br/>
-    <button class="shopbiking">SHOP BIKING</button>
-    <button class="shophiking">SHOP HIKING</button>
-  </h3>
-
-</div>
-<div class="leftImgDiv">
-  <img src='//cdn.shopify.com/s/files/1/0277/0693/files/JoeySchusler-1_copy_600x@2x.progressive.jpg?v=1585582028 1200w,
-  //cdn.shopify.com/s/files/1/0277/0693/files/JoeySchusler-1_copy_450x@2x.progressive.jpg?v=1585582028 900w,
-  //cdn.shopify.com/s/files/1/0277/0693/files/JoeySchusler-1_copy_300x@2x.progressive.jpg?v=1585582028 600w,
-  //cdn.shopify.com/s/files/1/0277/0693/files/JoeySchusler-1_copy_200x@2x.progressive.jpg?v=1585582028 400w,
-  //cdn.shopify.com/s/files/1/0277/0693/files/JoeySchusler-1_copy_100x@2x.progressive.jpg?v=1585582028 200w'
-  class="imgLeft" />
-
-  <h3 class="RightPLast" >
-    <p >Along for the<br/> ride: Wild<br/> Traverse</p>
-    <strong  class="stronglast">Charting new territories with our friends </strong>
-    <br/>
-    <button class="shopbiking">SHOP BIKING</button>
-    <button class="shophiking">SHOP HIKING</button>
-  </h3>
-</div>
-</div>
-
 
 
 <div class="row5">
-  <div class="floatleft">
-    <h1 class="footerH">
-    SIGN UP & SAVE
-  </h1>
-  <strong class="footerP">Sign up and stay up to date on all the latest news from Topo Designs and best of all, you'll get 15% off!</strong>
-</div>
-<div class="floatright">
-<form>
-  <input  placeholder="Email Address" />
-<button>SGIN UP</button>
-</form>
-</div>
-</div>
+  <div class="img2-5">
+      <img src='//cdn.shopify.com/s/files/1/0277/0693/files/ezgif.com-webp-to-jpg_600x@2x.progressive.jpg?v=1584719872 1200w,
+  //cdn.shopify.com/s/files/1/0277/0693/files/ezgif.com-webp-to-jpg_450x@2x.progressive.jpg?v=1584719872 900w,
+  //cdn.shopify.com/s/files/1/0277/0693/files/ezgif.com-webp-to-jpg_300x@2x.progressive.jpg?v=1584719872 600w,
+  //cdn.shopify.com/s/files/1/0277/0693/files/ezgif.com-webp-to-jpg_200x@2x.progressive.jpg?v=1584719872 400w,
+  //cdn.shopify.com/s/files/1/0277/0693/files/ezgif.com-webp-to-jpg_100x@2x.progressive.jpg?v=1584719872 200w' class="row2-img2-5" />
+      <div class="absalute-div2-5">
+          <h3 class="TopoDesing2-5">
+              <p>Iconic design runs in the family.</p>
+          </h3>
+          <strong>Introducing the Rover Pack Collection.</strong>
+          <br />
+          <button class="shop-the-collection2-5">SHOP POVERS</button>
+      </div>
 
-
-<div class="row6">
-  <div class="empty">
-a
   </div>
 
-  <table id="customers">
-    <tr>
-      <th>SHOP</th>
-      <th>RETAILERS</th>
-      <th>ON THE MAP</th>
-    </tr>
-    <tr>
-      <td>New</td>
-      <td>Packs & Bags</td>
-      <td>Men's Apparel</td>
-    </tr>
-    <tr>
-      <td>Packs & Bags</td>
-      <td>Fort Collins Store</td>
-      <td>Boulder Store</td>
-    </tr>
-    <tr>
-      <td>Men's Apparel</td>
-      <td>Francisco Chang</td>
-      <td>Mexico</td>
-    </tr>
-    <tr>
-      <td>Women's Apparel</td>
-      <td>Roland Mendel</td>
-      <td>Austria</td>
-    </tr>
-    <tr>
-      <td>Accessories</td>
-      <td>Helen Bennett</td>
-      <td>UK</td>
-    </tr>
-    <tr>
-      <td>Gift Cards</td>
-      <td>Philip Cramer</td>
-      <td>Germany</td>
-    </tr>
-    <tr>
-      <td>Laughing Bacchus Winecellars</td>
-      <td>Yoshi Tannamuri</td>
-      <td>Canada</td>
-    </tr>
-    <tr>
-      <td>Magazzini Alimentari Riuniti</td>
-      <td>Giovanni Rovelli</td>
-      <td>Italy</td>
-    </tr>
-    
-  </table>
- <div class="mainfooter">
-  <p class="mainfooterP">Ⓒ 2020 Topo Designs</p>
-  <div class='mainfooterImg'>
-<img src='https://ya-webdesign.com/images250_/facebook-twitter-instagram-logo-png-5.png' /> 
-</div>
-</div>
 
+  <div class="img1-5">
+      <img src='//cdn.shopify.com/s/files/1/0277/0693/files/49488980266_87e85a8c02_o_copy_600x@2x.progressive.jpg?v=1585238842 1200w,
+//cdn.shopify.com/s/files/1/0277/0693/files/49488980266_87e85a8c02_o_copy_450x@2x.progressive.jpg?v=1585238842 900w,
+//cdn.shopify.com/s/files/1/0277/0693/files/49488980266_87e85a8c02_o_copy_300x@2x.progressive.jpg?v=1585238842 600w,
+//cdn.shopify.com/s/files/1/0277/0693/files/49488980266_87e85a8c02_o_copy_200x@2x.progressive.jpg?v=1585238842 400w,
+//cdn.shopify.com/s/files/1/0277/0693/files/49488980266_87e85a8c02_o_copy_100x@2x.progressive.jpg?v=1585238842 200w' class="row2-img2-5" />
+      <div class="absalute-div-5">
+          <h3 class="TopoDesing-5">
+              <p>Sign Up. Earn Points. Get Rewarded.</p>
+          </h3>
+          <button class="shop-the-collection-5">SHOP THE COLLECTION</button>
+      </div>
+  </div>
 
 </div>
 
+
+<div class="redFooter">
+
+  <div class="text">
+      <h3>
+          SIGN UP & SAVE
+      </h3>
+      <strong>Sign up and stay up to date on all the latest news from Topo Designs and best of all, you'll get 15% off!</strong>
+  </div>
+
+  <div class="footerInput">
+      <input placeholder="Email Address" />
+      <button>SGIN IN</button>
+  </div>
+
+</div>
+
+
+<div class="footer">
+  <div class="contenier-footer">
+      <div class="footer-ul1">
+
+          <ul>
+              <li>SHOP</li>
+              <li>New</li>
+              <li>Packs & Bags</li>
+              <li>Men's Apparel</li>
+              <li>Accessories</li>
+              <li>Gifr Cards</li>
+          </ul>
+
+      </div>
+
+      <div class="footer-ul2">
+
+          <ul>
+              <li>RETAILERS</li>
+              <li>Denver Flagship Store</li>
+              <li>Fort Collins Store</li>
+              <li>Boulder Store</li>
+              <li>San Francisco Store</li>
+              <li>New York Store</li>
+              <li>DIA Store</li>
+              <li>Find A Reatailer</li>
+          </ul>
+
+      </div>
+
+      <div class="footer-ul3">
+
+          <ul>
+              <li>ON THE MAP</li>
+              <li>Our Roots</li>
+              <li>In The Wild Blog </li>
+              <li>Events</li>
+              <li>Collaborations</li>
+              <li>Manufacturing</li>
+              <li>M.A.O.Pact</li>
+              <li>Warranty and Repairs</li>
+          </ul>
+
+      </div>
+
+      <div class="footer-ul4">
+
+          <ul>
+              <li>HELP</li>
+              <li>Returns & Shipping</li>
+              <li>FAQ</li>
+              <li>Affllates</li>
+              <li>Students</li>
+              <li>Careers</li>
+              <li>Corporate Sales</li>
+              <li>Privacy Policy</li>
+              <li>Contact Us</li>
+          </ul>
+
+      </div>
+
+  </div>
+
+</div>
+<div class="icone">
+  <div class="instagram">
+      <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+  </div>
+  <div class="facebook">
+      <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+  </div>
+  <div class="twitter">
+      <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+  </div>
+  <div class="pinterest">
+      <i class="fa fa-pinterest-p fa-lg" aria-hidden="true"></i>
+  </div>
+  <div>
+
+      <p class="finalP">Ⓒ 2020 Topo Designs</p>
+
+  </div>
